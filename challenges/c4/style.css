@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto";
+}
+
+.top {
+  height: 40vh;
+  padding: 2em;
+  background-color: #23424a;
+}
+
+.top-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  row-gap: 1em;
+}
+
+button {
+  width: 20%;
+}
+
+.mid {
+  padding: 2em;
+  display: flex;
+  height: 30vh;
+  color: #87629a;
+  gap: 2em;
+}
+.bot {
+  padding: 2em;
+  height: 30vh;
+  display: flex;
+  color: white;
+  background-color: #136c72;
+  gap: 2em;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+.card p {
+  text-align: center;
+  font-size: 0.9rem;
+}
